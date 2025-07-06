@@ -1,0 +1,8 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 1000px; /* keeps nice centred block */
+  margin-inline: auto; /* centre horizontally */
+}

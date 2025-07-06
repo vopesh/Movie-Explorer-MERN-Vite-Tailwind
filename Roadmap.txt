@@ -1,0 +1,34 @@
+Project 3: Movie Explorer (MERN Stack)
+✅ Core Features:
+🔎 Search for movies (via TMDB API or similar)
+
+🔁 Infinite scrolling for results
+
+🔄 Debounced input
+
+📄 Multiple React Pages (via React Router)
+
+🧠 Global state via useReducer
+
+🧯 Error boundaries
+
+✅ Backend Enhancements (Node.js + Express + MongoDB)
+Starting from this project, we will:
+
+✅ Use ES Modules (ESM) – no require, only import/export.
+
+
+🛠️ Technologies Used:
+Layer	Tech
+Frontend	React (Vite, Hooks, Router)
+Backend	Node.js (ESM) + Express
+DB	MongoDB with Mongoose
+UI	Tailwind or Shadcn (optional)
+Dev Tools	Nodemon, CORS, dotenv, cookie-parser, etc
+
+
+If you’re using npm workspaces (your root package.json has
+"workspaces": ["frontend", "backend"]) you can do the same in one line
+from the root:
+npm i -w backend axios axios-retry
+
